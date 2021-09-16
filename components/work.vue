@@ -1,5 +1,5 @@
 <template>
-  <v-card elevation="1" class="mx-15 my-8 pa-3" color="lighten2">
+  <v-card id="work" elevation="1" class="mx-15 my-8 pa-3" color="lighten2">
     <v-card-title class="text-h4 font-weight-bold darken1--text pb-6">Expériences professionnelles</v-card-title>
     <v-expansion-panels focusable>
         <v-expansion-panel

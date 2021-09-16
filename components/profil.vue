@@ -1,5 +1,5 @@
 <template>
-  <v-card elevation="1" class="mx-15 my-8 pa-3" color="lighten2">
+  <v-card id="profil" elevation="1" class="mx-15 my-8 pa-3" color="lighten2">
 
     <div class="d-flex">
       <v-col cols="8">
