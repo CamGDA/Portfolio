@@ -9,6 +9,7 @@
       <!-- Provides the application the proper gutter -->
 
         <v-container class="pt-0" fluid>
+          <Home></Home>
           <Profil></Profil>
           <Work></Work>
           <Formation></Formation>
@@ -30,6 +31,7 @@
 
 <script>
 
+import Home from "~/components/home.vue";
 import Toolbar from "~/components/toolbar.vue";
 import Profil from "~/components/profil.vue";
 import Work from "~/components/work.vue";
@@ -37,7 +39,7 @@ import Formation from "~/components/formation.vue";
 import Project from "~/components/project.vue";
 
   export default {
-    components: { Toolbar, Profil, Work, Formation, Project },
+    components: { Home, Toolbar, Profil, Work, Formation, Project },
 
   }
 </script>
