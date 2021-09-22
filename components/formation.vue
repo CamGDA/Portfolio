@@ -2,34 +2,6 @@
   <v-card id="formation" elevation="1" max-width="600" class="mx-15 my-8 pa-3" color="lighten2">
     <v-card-title class="text-h4 font-weight-bold darken1--text pb-6">Formations</v-card-title>
 
-  <!--<div>
-      <v-card width="700px" class="pa-5 d-flex justify-space-around ">
-        <v-timeline>
-          <v-timeline-item
-            v-for="(formation, i) in formations"
-            :key="i"
-            :color="formation.color"
-            small
-          >
-            <template v-slot:opposite>
-              <span
-                :class="`headline font-weight-bold ${formation.color}--text`"
-                v-text="formation.year"
-              ></span>
-            </template>
-            <div class="py-4">
-              <h2 :class="`headline font-weight-light mb-4 ${formation.color}--text`">
-                {{ formation.institute }}
-              </h2>
-              <div>
-                {{ formation.description }}
-              </div>
-            </div>
-          </v-timeline-item>
-        </v-timeline>
-      </v-card>
-    </div>-->
-
     <v-timeline
             align-top
             dense

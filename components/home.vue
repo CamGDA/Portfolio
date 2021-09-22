@@ -5,7 +5,7 @@
     height="600px"
     class="d-flex align-end"
     >
-    <v-card-title class="font-weight-medium white--text text-lg-h1 text-md-h2">
+    <v-card-title class="font-weight-medium white--text text-lg-h1 text-md-h2 text-xs-h2">
         Mon Portfolio
     </v-card-title>
     </v-img>
