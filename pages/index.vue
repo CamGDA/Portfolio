@@ -12,8 +12,16 @@
         <Home></Home>
         <Profil></Profil>
         <Work></Work>
-        <Formation></Formation>
+        <v-row>
+          <v-col class="col-lg-6 col-sm-12">
+            <Formation></Formation>
+          </v-col>
+          <v-col class="col-lg-6 col-sm-12">
+            <Skills></Skills>
+          </v-col>
+        </v-row>
         <Project></Project>
+        <Contact></Contact>
       </v-container>
     </v-main>
 
@@ -31,9 +39,20 @@ import Toolbar from '~/components/toolbar.vue'
 import Profil from '~/components/profil.vue'
 import Work from '~/components/work.vue'
 import Formation from '~/components/formation.vue'
+import Skills from '~/components/skills.vue'
 import Project from '~/components/project.vue'
+import Contact from '~/components/contact.vue'
 
 export default {
-  components: { Home, Toolbar, Profil, Work, Formation, Project },
+  components: {
+    Home,
+    Toolbar,
+    Profil,
+    Work,
+    Formation,
+    Skills,
+    Project,
+    Contact,
+  },
 }
 </script>
