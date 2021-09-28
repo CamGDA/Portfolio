@@ -24,7 +24,6 @@
         <Contact></Contact>
       </v-container>
     </v-main>
-
     <v-footer app>
       <v-col class="text-center" cols="12">
         {{ new Date().getFullYear() }} — <strong>Camille Gomes</strong>
