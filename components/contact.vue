@@ -6,55 +6,62 @@
     color="lighten2"
     height="600px"
   >
-    <v-card color="black" height="260" width="500px" class="contact">
-      <v-card-title class="white--text">thtrfh</v-card-title>
-      <v-card-content class="white--text">blblblbl</v-card-content>
-    </v-card>
-    <div class="shape-container">
-      <div class="shape"></div>
-    </div>
-    <!--<v-row class="ml-10">
-      <v-col class="col-md-6">
-        <v-img
-          lazy-src="https://yannjarno.com/wp-content/uploads/2015/11/comment-devenir-developpeur-web-freelance.jpg"
-          max-width="600"
-          src="https://yannjarno.com/wp-content/uploads/2015/11/comment-devenir-developpeur-web-freelance.jpg"
-        ></v-img>
-      </v-col>
-      <v-col class="d-flex align-center col-md-5 ml-md-auto">
-        <v-card color="black" height="260" width="500px">
-          <v-card-title class="white--text">thtrfh</v-card-title>
-          <v-card-content class="white--text">blblblbl</v-card-content>
+    <v-img
+      src="https://yannjarno.com/wp-content/uploads/2015/11/comment-devenir-developpeur-web-freelance.jpg"
+      gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+      height="500"
+      class="d-flex align-center"
+    >
+      <div class="d-flex justify-center">
+        <v-card color="rgb(232, 248, 245, 0.8)" height="280" width="700px">
+          <v-card-title
+            class="text-h4 font-weight-bold darken1--text pb-6 justify-center"
+          >
+            Coordonnées
+          </v-card-title>
+          <v-card-title class="darken1--text justify-center"
+            >camillegomes91@gmail.com</v-card-title
+          >
+          <v-card-title class="darken1--text justify-center"
+            >06 01 30 72 88</v-card-title
+          >
+          <v-card-actions class="justify-center">
+            <v-btn
+              v-for="(social, i) in socials"
+              :key="i"
+              :color="social.color"
+              :href="social.link"
+              class="white--text"
+              fab
+              icon
+              small
+            >
+              <v-icon>{{ social.icon }}</v-icon>
+            </v-btn>
+          </v-card-actions>
         </v-card>
-      </v-col>
-    </v-row> -->
+      </div>
+    </v-img>
   </div>
 </template>
 
 <script>
 export default {
   name: 'Contact',
+
+  data: () => ({
+    socials: [
+      {
+        icon: 'mdi-github',
+        color: 'black lighten-3',
+        link: 'https://github.com/CamGDA',
+      },
+      {
+        icon: 'mdi-linkedin',
+        color: 'cyan darken-1',
+        link: ' www.linkedin.com/in/camille-gomes-de-assunçao-34a106157',
+      },
+    ],
+  }),
 }
 </script>
-
-<style>
-.shape-container {
-  position: absolute;
-  width: 100%;
-  height: 330px;
-  overflow: hidden;
-  bottom: 3px;
-}
-
-.shape {
-  position: relative;
-  background-image: url(https://yannjarno.com/wp-content/uploads/2015/11/comment-devenir-developpeur-web-freelance.jpg);
-  width: 3000px;
-  height: 530px;
-  border-radius: 50%;
-}
-
-.contact {
-  left: calc(50vw - 600px);
-}
-</style>
