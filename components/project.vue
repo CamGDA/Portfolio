@@ -3,7 +3,7 @@
     <v-card-title class="text-h4 font-weight-bold darken1--text pb-6"
       >Projets</v-card-title
     >
-    <div class="d-flex flex-wrap justify-space-between">
+    <div class="d-flex flex-wrap justify-space-around">
       <v-card
         v-for="(project, i) in projects"
         :key="i"
@@ -62,14 +62,14 @@ export default {
     projects: [
       {
         slide: 'PROJET 1',
-        title: 'To Do List Nuxt',
+        title: 'To Do List',
         subtitle:
           'Simple To Do List avec ajout, modification et suppression de tâches.',
-        src: 'https://github.com/CamGDA/TodoListNuxt',
-        chip1: 'Nuxt',
-        chip2: 'Vue',
-        chip3: 'JS',
-        chip4: 'Vuetify',
+        src: 'https://github.com/Camille-Gomes/Todo-React',
+        chip1: 'React',
+        chip2: 'JS',
+        chip3: 'HTML',
+        chip4: 'CSS',
       },
       {
         slide: 'PROJET 2',
@@ -80,16 +80,27 @@ export default {
         chip1: 'PHP',
         chip2: 'Bootstrap',
         chip3: 'MySQL',
+        chip4: 'JS',
       },
       {
         slide: 'PROJET 3',
         title: 'Portfolio',
-        subtitle: 'Portfolio responsive',
+        subtitle: 'Portfolio single page',
         src: 'https://github.com/CamGDA/portfolio',
         chip1: 'Nuxt',
         chip2: 'Vue',
         chip3: 'JS',
         chip4: 'Vuetify',
+      },
+      {
+        slide: 'PROJET 3',
+        title: 'Blog',
+        subtitle: "Blog avec login, register, creation d'articles",
+        src: 'https://github.com/Camille-Gomes/Blog-React-Node',
+        chip1: 'Node',
+        chip2: 'React',
+        chip3: 'JS',
+        chip4: 'CSS',
       },
     ],
     model: 0,

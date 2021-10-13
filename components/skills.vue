@@ -39,7 +39,7 @@ export default {
       {
         language: 'Javascript',
         color: 'indigo',
-        value: '40',
+        value: '50',
       },
       {
         language: 'PHP',
@@ -54,7 +54,12 @@ export default {
       {
         language: 'Vue.js',
         color: 'red',
-        value: '30',
+        value: '40',
+      },
+      {
+        language: 'React',
+        color: 'purple',
+        value: '40',
       },
       {
         language: 'Bootstrap',

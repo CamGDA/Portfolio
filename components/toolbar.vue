@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar color="secondary" fixed app>
+  <v-toolbar color="secondary" class="fixed" app>
     <v-col class="d-flex justify-start align-center">
       <v-icon color="black">mdi-flower</v-icon>
       <v-toolbar-title class="mx-4 black--text"
