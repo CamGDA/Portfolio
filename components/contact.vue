@@ -54,12 +54,12 @@ export default {
       {
         icon: 'mdi-github',
         color: 'black lighten-3',
-        link: 'https://github.com/CamGDA',
+        link: 'https://github.com/Camille-Gomes',
       },
       {
         icon: 'mdi-linkedin',
         color: 'cyan darken-1',
-        link: ' www.linkedin.com/in/camille-gomes-de-assunçao-34a106157',
+        link: 'https://www.linkedin.com/in/camille-gomes-de-assun%C3%A7ao-34a106157/',
       },
     ],
   }),
